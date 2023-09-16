@@ -5,29 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobSearch</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    <div class="general">
+  
+<div class="general-card">
+<form class="user-form">
+<div class="h2"><h2>Contact Form</h2></div>
+<hr>
 
-<div class="card">
-<div class="img"><img src="Engineer.img.jfif" alt="engineer"></div>
-<div class="text">
-    <h2>John Doe</h2>
-    <p>Architect & Engineer</p>
+<div class="input">
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="Name" required>
+</div> 
+
+<div class="input">
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="jack.s@email.com" required>
 </div>
 
+<div class="input">
+<label for="telephone-number">Phone no.</label>
+<div><input class="country" type="tel" id="telephone-number" placeholder="+994" required maxlength="4">
+<input class="number" type="tel" id="telephone-number" placeholder="554342332" required maxlength="9">
+</div></div>
+
+<div class="input">
+<label for="birth-date">Date of Birth</label>
+<input type="date" id="birth-date" required>
 </div>
 
-<div class="card">
-    <div class="img"><img src="Designer.img.jfif" alt="designer"></div>
-    <div class="text">
-        <h2>Jane Doe</h2>
-        <p>Interior Designer</p>
-    </div>
-    </div>
+<div class="input">
+<label for="state">State</label>
+<input type="text" id="state" placeholder="State" required>
+</div>
 
-    </div>
+
+<div class="input">
+<label for="pincode">Pincode</label>
+<input type="number" id="pincode" placeholder="Pincode"
+required>
+</div>
+
+
+<div class="input">
+<h5>Message</h5>
+<textarea name="Message" id="message" cols="30" rows="10"> </textarea>
+</div>
+
+
+<div class="checkbox">
+<input type="checkbox">
+<label for="privacy-agreement">I agree with privacy political</label>
+
+</div>
+
+
+
+
+
+    
+<button class="button" type="submit">Submit</button>
+</div>
+
+
+</form>
+</div> 
+
+
+
+
+
 
 </body>
 </html>
