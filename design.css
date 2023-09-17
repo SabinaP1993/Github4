@@ -1,0 +1,133 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.general{
+
+width: 1000px;
+height: 1000px;
+background-color: white;
+
+}
+
+.main{
+
+padding: 20px 0 30px 320px;
+
+
+
+}
+
+.basic{
+
+    display: inline-block;
+    width: 250px;
+    height: max-content;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.pro{
+
+    display: inline-block;
+    width: 250px;
+    height: max-content;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px grey;
+    
+    
+
+}
+
+.enterprise{
+
+    display: inline-block;
+    width: 250px;
+    height: max-content;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+.bbutton{
+
+color:white;
+background-color:indianred;
+border-radius: 10px;
+border: none;
+width: 100px;
+height: 25px;
+
+}
+
+
+.pbutton{
+
+color: white;
+background-color:mediumseagreen;
+border-radius: 10px;
+border: none;
+width: 100px;
+height: 25px;
+
+}
+
+.ebutton{
+
+    color: white;
+    background-color:royalblue;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+height: 25px;
+    
+}
+
+.gift{
+
+    color: royalblue;
+    height: 30px;
+}
+
+.trophy{
+
+color: mediumseagreen;
+height: 30px;
+
+}
+
+
+.box{
+
+color: indianred;
+height: 30px;
+
+}
+
+.price{
+
+padding: 0 20px 20px 20px;
+
+}
+
+p{
+
+    padding: 10px;
+
+}
+
+
+.button{
+
+padding: 20px ;
+
+}
